@@ -1,0 +1,58 @@
+body#articles{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin: 70px auto;
+    max-width: 1800px;
+    
+    
+}
+
+.articles h1{
+    grid-column: -1/1;
+    width: 98%;
+    line-height: 0.1em;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.articles span{ 
+    background: #fff;
+    padding: 0 10px;
+}
+
+.all-articles, .all-articles2{
+    margin: 10px;
+    
+    width: 95%; 
+}
+
+.all-articles:hover, .all-articles2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 2s;
+    cursor: pointer;
+}
+
+
+
+.car{
+    width: 100%;
+    height: 400px; 
+    
+    
+      
+
+    
+    
+}
+

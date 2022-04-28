@@ -1,0 +1,46 @@
+body#about{
+    background-image: url('../../images/rarrif1-kopi.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size:cover; 
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+    
+    
+   /* background-image: url('../../images/rarrif1-kopi.jpg');*/
+    
+    
+   
+    
+
+
+.about-content{
+    background-color: rgba(118, 5, 5, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px ;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+/*.about-content p{
+   width: 400px;
+}*/
+
+
