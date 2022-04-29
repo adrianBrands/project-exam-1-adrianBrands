@@ -27,25 +27,31 @@
                 <form class="contact-form">
                     <div class="form-group">
                         <label>Your Name(required)</label>
-                        <input name="name" />
-                        <div class="error-message hidden">Please write youre full name</div>
+                        <input class="" name="name" />
+                        <div class="error-message hidden">Please write youre name(5 characters or more)</div>
                     </div>
                     <div class="form-group">
                         <label>Your Email(required)</label>
-                        <input name="email" />
+                        <input class="" name="email" />
                         <div class="error-message hidden">Please write a valid email</div>
                     </div>
                     <div class="form-group">
+                        <label>Subject</label>
+                        <input class="" name="text" />
+                        <div class="error-message hidden">Please write a subject(15 characters or more)
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label>Your message</label>
-                        <textarea name="text-erea"></textarea>
-                        <div class="error-message hidden">Write a message</div>
+                        <textarea class="" name="text-area"></textarea>
+                        <div class="error-message hidden">Please write a message(25 characters or more)</div>
                     </div>
                     <button class="send">Send</button>
                 </form>
-                <div class="success">Success, thank you for contacting us</div>
+                <div class="success hidden">Success, thank you for contacting us</div>
             </div> 
             <div class="img">
-                <img  class="image-contact"src="images/rarri1.jpg"> 
+                <img  class="image-contact"src="images/ferrari3.jpg"> 
             </div>
         </section>
          
@@ -53,10 +59,10 @@
 
     </main> 
     <footer>
+        <img class="logo-footer" src="images/logos.png">
         <p>&copy 2022 The Petrol Head Blog, ALL RIGHTS RESERVED</p>
         
     </footer>
-   
-    
+    <script  src="js/contact.js" ></script>
 </body>
 </html>

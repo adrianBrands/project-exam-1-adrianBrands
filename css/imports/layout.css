@@ -63,7 +63,7 @@ nav a:hover{
 
 footer{
   /*  height: 100%;*/
-  margin-top: auto; 
+   margin-top: auto; 
    /* height: 40px;*/
     max-width: 100%;
     align-items: center;
@@ -72,9 +72,13 @@ footer{
     background-color: rgba(118, 5, 5, 0.95);
     color: #fff;
     min-height: 50px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .logo-footer{
-    width: 40px;
-    height: 40px;
+    width: 40%;
+    margin-top: 20px;
+    
+    
 }
