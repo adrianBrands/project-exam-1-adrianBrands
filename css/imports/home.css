@@ -11,13 +11,18 @@ min-height: 100vh;
 
 .gt40{
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.6;
     
 }
 
 .posts {
     position: relative;
-    
+   /* background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.95)
+    ); */
+    background-color: black;
 }
 
 .posts h2{
@@ -28,3 +33,4 @@ min-height: 100vh;
     transform: translateX(-20%);
     color: #fff;
 }
+
