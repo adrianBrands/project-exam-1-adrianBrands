@@ -1,4 +1,4 @@
-/*const url = "http://localhost/The-Petrol-Head-Blog/wordpress/wp-json/wp/v2/posts?per_page=12";*/
+
 /*const url = "http://localhost/The-Petrol-Head-Blog/wordpress/wp-json/wp/v2/posts?_embed&per_page=12";*/
 const url ="https://mywebsite.no/wp-json/wp/v2/posts?_embed&per_page=12";
 /*posts?_embed*/

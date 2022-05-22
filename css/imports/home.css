@@ -25,7 +25,7 @@ min-height: 100vh;
     background-color: black;
 }
 
-.posts h2{
+.posts h1{
     position: absolute;
     top: 100px;
     left: 20%;
@@ -34,3 +34,87 @@ min-height: 100vh;
     color: #fff;
 }
 
+.carousel{
+    overflow: hidden; 
+    
+    position: relative;
+    
+}
+
+
+
+.carousel .carousel_content,
+.carousel .carousel_content--hidden {
+    display: none;
+}
+
+.carousel .carousel_content--visible {
+  /*  display: block; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin: 70px auto;
+    max-width: 1500px;
+    
+    animation: fade 3s;
+    
+}
+
+.carousel .carousel_buttons{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    
+
+}
+
+.carousel .carousel_buttons button {
+    border-radius: 40px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel .carousel_buttons button#carousel_button--prev {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.carousel .carousel_buttons button#carousel_button--next {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.post_img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.carousel_item {
+    width: 95%;
+    margin: 20px;
+    
+}
+
+.carousel h2 {
+    text-align: center;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: opacity linear;
+    }
+}
