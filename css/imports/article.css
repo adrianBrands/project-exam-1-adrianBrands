@@ -12,6 +12,18 @@ body#article{
     
 }
 
+.img-article_module{
+   width:100%;
+   /*display: flex;
+   justify-content: space-between;*/
+  /* height: 1000px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
+    
+    
+}
+
 .article-content{
     display: flex;
     align-items: center;
@@ -25,7 +37,6 @@ body#article{
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    
     padding: 10px;
 
 }
@@ -42,4 +53,24 @@ body#article{
 
 .author{
     color: red;
+}
+
+.img_modal{
+    
+    padding: 0;
+    border: none;
+     
+    overflow: hidden;
+    
+    background-color:rgba(180, 41, 41, 0);
+    
+    width: 70%;
+    
+    
+    
+}
+
+.wp-image-61, .wp-image-65{
+    height: auto;
+    width: 100%
 }
