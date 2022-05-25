@@ -72,5 +72,6 @@ body#article{
 
 .wp-image-61, .wp-image-65{
     height: auto;
-    width: 100%
+    width: 100%;
+    border-radius: 40px;
 }
