@@ -5,7 +5,8 @@ body#about{
     flex-direction: column;
     background-size:cover; 
     background-position:center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
 }
 
 /*.about{
