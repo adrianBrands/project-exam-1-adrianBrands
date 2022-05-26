@@ -16,7 +16,7 @@ min-height: 100vh;
 }
 
 .posts {
-    position: relative;
+    
    /* background: 
     linear-gradient(
         rgba(0, 0, 0, 0.95),
@@ -25,14 +25,7 @@ min-height: 100vh;
     background-color: black;
 }
 
-.posts h1{
-    position: absolute;
-    top: 100px;
-    left: 20%;
-    font-size: 40px;
-    transform: translateX(-20%);
-    color: #fff;
-}
+
 
 .carousel{
     overflow: hidden; 
@@ -104,7 +97,7 @@ min-height: 100vh;
 
 .carousel_item {
     
-   padding: 15px;
+   padding: 20px;
    
     
     
@@ -126,6 +119,7 @@ min-height: 100vh;
     line-height: 0.1em;
     border-bottom: 1px solid #000;
     text-align: center;
+    font-size: 30px;
     
     
     

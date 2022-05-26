@@ -35,20 +35,20 @@
 
     }
 
-    .latest_articles_h2 {
-        font-size:15px;
-        width: 100%;
+    .latest_articles_h2 h2 {
+        font-size:20px;
+        
        
         
     }
 
     .post_name {
-        font-size: 20px;
+        font-size: 15px;
         
     }
 
     .carousel_item{
-        padding: 10px;
+        padding: 5px;
     }
 
     /*articles*/
