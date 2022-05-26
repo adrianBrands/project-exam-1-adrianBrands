@@ -75,3 +75,7 @@ body#article{
     width: 100%;
     border-radius: 40px;
 }
+
+dialog::backdrop {
+    background: rgba(71, 70, 70, 0.5);
+}

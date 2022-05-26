@@ -29,14 +29,16 @@
     }
 
     .carousel .carousel_buttons  {
-        top: 0%;
+        top: 90%;
         transform: translateY(-0%);
+        width: 100%;
         
 
     }
 
     .latest_articles_h2 h2 {
         font-size:20px;
+        width: 95%; 
         
        
         

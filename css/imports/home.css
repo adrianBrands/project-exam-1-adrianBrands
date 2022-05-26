@@ -133,7 +133,7 @@ min-height: 100vh;
 
 
 .carousel_item p{
-    
+    margin-top: 2px;
 }
 
 .post_name {
@@ -151,9 +151,9 @@ min-height: 100vh;
     cursor: pointer;
 }
 
-.carousel_item p{
+.carousel_item .author{
     
-    margin-top: 5px;
+    margin-top: -6px;
     
 }
 

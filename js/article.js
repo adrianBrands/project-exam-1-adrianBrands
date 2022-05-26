@@ -53,26 +53,30 @@ function displayArticleResults (results){
 
 
 
+const imgModall = document.querySelector(".img-article_module")
 
 document.addEventListener("click", function(event) {
-   
-   
+    
     if (event.target.closest(".article-img")) {
         imgModal.showModal();
 
     }
-    if (event.target.closest(".dialog_div"))  
-    imgModal.close();
-        
+    /*if (!event.target.closest(".img-article_module")) {
+        imgModal.close();
 
-     
-    
-    
-    
-    
+    } */ 
 })
 
+function dialogClick(event){
+    if (event.target === dialog) {
+        dialog.close();
+    } else {
+        console.log("no")
+    }
+}
 
+const dialog = document.querySelector("dialog");
+dialog.addEventListener("click", dialogClick);
 
 
 

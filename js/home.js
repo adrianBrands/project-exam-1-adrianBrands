@@ -23,9 +23,8 @@ function displayresults(results) {
       case results[3]:
         carousel1.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">${results[i].date}</p>
-                                   
-                                   <p class="author">author: ${results[i]._embedded.author[0].name}</p></div>`; /* <a class="cta" href="article.html?id=${results[i].id}" <button>read</button></a>*/
+                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`; /* <a class="cta" href="article.html?id=${results[i].id}" <button>read</button></a>*/
         break;
 
       case results[4]:
@@ -34,9 +33,8 @@ function displayresults(results) {
       case results[7]:
         carousel2.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">${results[i].date}</p>
-                                   
-                                   <p class="author">author: ${results[i]._embedded.author[0].name}</p></div>`;
+                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
         break;
 
       case results[8]:
@@ -45,9 +43,8 @@ function displayresults(results) {
       case results[11]:
         carousel3.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}" ><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">${results[i].date}</p>
-                                   
-                                   <p class="author">author: ${results[i]._embedded.author[0].name}</p></div>`;
+                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
     }
   }
 
