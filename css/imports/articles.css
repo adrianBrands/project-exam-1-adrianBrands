@@ -69,7 +69,7 @@ body#articles{
 .articles_name{
     
     font-size: 25px;
-    font-weight:bolder;
+    font-weight:lighter;
     text-decoration: none;
     color: #000;
 }

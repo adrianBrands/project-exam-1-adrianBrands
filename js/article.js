@@ -6,7 +6,7 @@ const article = document.querySelector(".article-content2");
 const articleImg = document.querySelector(".article-img");
 const imgModal = document.querySelector(".img_modal");
 const dialogDiv = document.querySelector(".dialog_div");
-
+const title = document.querySelector(".title");
 
 
 const articleUrl =  "https://mywebsite.no/wp-json/wp/v2/posts/" + id +"?_embed";
@@ -30,6 +30,7 @@ async function getArticleResults() {
 function displayArticleResults (results){
     testImg = results._embedded['wp:featuredmedia']['0'].source_url;
     /*imgModal.style.backgroundImage = "url(" + testImg +")";*/
+    title.innerHTML = `${results.title.rendered}`;
     dialogDiv.innerHTML = `<img class="img-article_module" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
     articleImg.innerHTML += `<img class="img-article" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
     article.innerHTML += `<h1>${results.title.rendered}</h1>

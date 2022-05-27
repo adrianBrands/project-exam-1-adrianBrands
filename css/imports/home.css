@@ -107,7 +107,7 @@ min-height: 100vh;
 }
 
 .post_name {
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 20px;
     text-decoration: none;
     color: #000;
