@@ -98,7 +98,7 @@ min-height: 100vh;
     line-height: 0.1em;
     border-bottom: 1px solid #000;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
  .latest_articles_h2 span{ 
@@ -120,7 +120,7 @@ min-height: 100vh;
 }
 
 .carousel_item .author{
-    
+    color: rgb(191, 9, 9);
     margin-top: -6px;
 }
 

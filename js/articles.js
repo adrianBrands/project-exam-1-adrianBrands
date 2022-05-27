@@ -27,7 +27,8 @@ function displayresults (results){
                                     
                                     <a class="articles_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
                                     <p>${results[i].date}</p>
-                                   <a href="article.html?id=${results[i].id}"<button>read</button></a>
+                                    
+                                    <a href="article.html?id=${results[i].id}"<button class="articles-button">Read now</button></a>
                                 </div> `; 
     }
 

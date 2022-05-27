@@ -58,9 +58,23 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .read_more{
+        font-size: 17px;
+    }
+
      /*layout*/
      .logo-footer{
         width: 80%;
+    }
+
+    /*contact*/
+    .contact-info h1{
+        font-size: 30px;
+    }
+
+    .contact-info{
+    
+        width: 70%;
     }
 
     

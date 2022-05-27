@@ -32,10 +32,28 @@ body#articles{
 }
 
 .all-articles{
-    
+    margin-bottom: 15px;
     width: 95%;
+    border-bottom: 1px solid rgb(193, 21, 21);
      
 }
+
+.articles-button{
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    font-size: 20px;
+    
+
+}
+
+.articles-button:hover{
+    color: rgb(191, 9, 9);
+    
+}
+
+
+
 
 
 
@@ -76,7 +94,21 @@ body#articles{
 
 
 
-/*.articles_name:hover{
-    border-bottom: 1px ridge black;
+.read_more{
+    font-size: 20px;
     cursor: pointer;
-}*/
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(118, 5, 5);
+    color: #fff;
+    padding: 7px;
+    font-weight: lighter;
+}
+
+
+.read_more:hover{
+    background-color: rgb(220, 220, 220);
+    color: rgba(118, 5, 5);
+    transition: all 2s;
+}
