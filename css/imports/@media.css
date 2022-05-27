@@ -77,5 +77,10 @@
         width: 70%;
     }
 
+    /*article*/
+    .article-content2 h1 {
+        font-size: 25px;
+    }
+
     
   }

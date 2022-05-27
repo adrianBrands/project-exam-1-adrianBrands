@@ -73,3 +73,21 @@ textarea.invalid{
 .hidden {
     display: none;
 }
+
+.send {
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(118, 5, 5);
+    color: #fff;
+    padding: 7px;
+    font-weight: lighter;
+}
+
+.send:hover{
+    background-color: rgb(220, 220, 220);
+    color: rgba(118, 5, 5);
+    transition: all 2s;
+}

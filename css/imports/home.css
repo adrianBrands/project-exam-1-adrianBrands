@@ -54,6 +54,18 @@ min-height: 100vh;
     color: #000;
     font-size: 30px;
     font-weight: lighter;
+    background-color: #fff;
+    
+
+}
+
+.carousel .carousel_buttons button:hover{
+    color: #fff;
+    /*background-color: rgb(155, 154, 154);*/
+    background-color: rgba(118, 5, 5);
+    transition: all 1.5s;
+
+
 }
 
 .carousel .carousel_buttons button#carousel_button--prev {

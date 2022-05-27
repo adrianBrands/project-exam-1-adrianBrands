@@ -40,8 +40,8 @@ header a{
 
 
 
- ul{
-     padding: 0;
+ .ul {
+    padding: 0;
     margin: 0;
     display: flex;
     

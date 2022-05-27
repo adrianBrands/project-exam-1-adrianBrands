@@ -34,8 +34,12 @@ function displayArticleResults (results){
     dialogDiv.innerHTML = `<img class="img-article_module" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
     articleImg.innerHTML += `<img class="img-article" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
     article.innerHTML += `<h1>${results.title.rendered}</h1>
-                          <p class="author">author: ${results._embedded.author[0].name}</p>
-                          <img src="${results._embedded['author']['0']['avatar_urls']['24']}"/>
+                          <ul class="article_ul">
+                            <li><img class="author_picture" src="${results._embedded['author']['0']['avatar_urls']['24']}"/></li>
+                            <li><p class="author">author: ${results._embedded.author[0].name}</p></li>
+                          </ul>
+
+                          
                           <p>${results.content.rendered}</p>`; 
 
                           const getWpImgClass = document.querySelector(".wp-image-61")

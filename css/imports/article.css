@@ -83,3 +83,21 @@ dialog::backdrop {
     background: rgba(71, 70, 70, 0.5);
     cursor: pointer;
 }
+
+.author_picture {
+    border-radius: 10px;
+    
+    width: 90px;
+    height: 80px;
+}
+
+.article_ul{
+    
+    padding: 0;
+    margin: 0;
+}
+
+.article_ul li {
+    display: inline-block;
+    margin: 10px;
+}
