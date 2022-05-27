@@ -23,10 +23,11 @@ function displayresults (results){
         console.log(results[i].id);
          
         createHtml.innerHTML += `<div class="all-articles">
-                                    <img class="car" src="${results[i]._embedded['wp:featuredmedia']['0'].source_url}" alt="${results[i]._embedded['wp:featuredmedia']['0'].alt_text}" />
-                                    <a class="articles_name">${results[i].title.rendered}</a>
+                                    <a href="article.html?id=${results[i].id}"><img class="car" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}" alt="${results[i]._embedded['wp:featuredmedia']['0'].alt_text}"/></a>
+                                    
+                                    <a class="articles_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
                                     <p>${results[i].date}</p>
-                                   <a href="article.html?id=${results[i].id}" <button>read</button></a>
+                                   <a href="article.html?id=${results[i].id}"<button>read</button></a>
                                 </div> `; 
     }
 

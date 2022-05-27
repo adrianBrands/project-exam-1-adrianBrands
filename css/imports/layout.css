@@ -58,29 +58,35 @@ header a{
     
 }
 
-.display-home{
-    display: none;
-}
+
 
 nav a{
+    display: inline-block;
     text-decoration: none;
     /*margin: 45px;*/
     color:#626161;
-    
+    padding-bottom: 3px;
     font-weight: lighter;
     
    
    
 }
 
-nav a:hover{
+nav a:after {
+    display: block;
     border-bottom: 2px solid #c51010;
-    padding-bottom: 3px;
+    content: '';
+    transform: scaleX(0);
+    transition: transform 900ms ease-in-out;
+
 }
 
-nav li {
+nav a:hover:after{
+    transform: scaleX(1);
     
 }
+
+
 
 li a {
     

@@ -41,7 +41,7 @@ function displayresults(results) {
       case results[9]:
       case results[10]:
       case results[11]:
-        carousel3.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}" ><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
+        carousel3.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
                                    <p class="date">Date: ${results[i].date}</p>
                                    <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
