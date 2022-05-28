@@ -87,6 +87,10 @@
         font-size: 16px;
     }
 
+    li a {
+        margin: 8px;
+    }
+
     /*contact*/
     .contact-info h1{
         font-size: 30px;
