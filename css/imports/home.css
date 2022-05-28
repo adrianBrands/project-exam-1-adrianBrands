@@ -134,6 +134,7 @@ min-height: 100vh;
 .carousel_item .author{
     color: rgb(191, 9, 9);
     margin-top: -6px;
+    font-size: 15px;
 }
 
 .cta {

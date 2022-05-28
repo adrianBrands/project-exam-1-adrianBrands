@@ -36,11 +36,11 @@ function displayArticleResults (results){
     article.innerHTML += `<h2>${results.title.rendered}</h2>
                           <ul class="article_ul">
                             <li><img class="author_picture" src="${results._embedded['author']['0']['avatar_urls']['24']}"/></li>
-                            <li><p class="author">author: ${results._embedded.author[0].name}</p></li>
+                            <li><p class="author_article">author: ${results._embedded.author[0].name}</p></li>
                           </ul>
 
                           
-                          <p>${results.content.rendered}</p>
+                          <p class="main_text_article">${results.content.rendered}</p>
                           <p class="date_article">${results.date}</p>`; 
 
                           const getWpImgClass = document.querySelector(".wp-image-61")

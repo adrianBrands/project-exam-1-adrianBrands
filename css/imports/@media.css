@@ -53,6 +53,10 @@
         padding: 5px;
     }
 
+    .date, .carousel_item .author{
+        font-size: 10px;
+    }
+
     /*articles*/
     .articles {
         grid-template-columns: repeat(1, 1fr);
@@ -100,6 +104,18 @@
     /*article*/
     .article-content2 h2 {
         font-size: 25px;
+    }
+
+    .article-content, .author_article, .main_text_article{
+        font-size: 15px;
+     }
+
+     .date_article{
+        font-size: 12px;
+        
+        
+        
+        
     }
 
     

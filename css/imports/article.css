@@ -48,13 +48,13 @@ body#article{
     font-weight: normal;
 }
 
-.article-content p{
+.article-content, .author_article, .main_text_article{
    /* width: 40%;*/
    /* align-items: center;*/
    font-size: 20px;
 }
 
-.author{
+.author_article{
     color: rgb(191, 9, 9);
 }
 
@@ -95,16 +95,28 @@ dialog::backdrop {
     border-bottom: 1px solid #000;
     padding: 0;
     margin: 0;
+   
 }
 
 .article_ul li {
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 10px;
+    
+    
+}
+
+.article_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
 }
 
 .date_article{
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(155, 154, 154);
+    
     
     
 }
