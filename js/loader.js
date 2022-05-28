@@ -1,6 +1,6 @@
 function stopLoader (){
     console.log("loaded");
-    /*loader.style.display="none";*/
+    loader.style.display="none";
   }
 
   const loader = document.querySelector(".loader");
