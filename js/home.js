@@ -3,11 +3,14 @@ const carousel1 = document.querySelector("#carousel1");
 const carousel2 = document.querySelector("#carousel2");
 const carousel3 = document.querySelector("#carousel3");
 
+
+
 async function getResults() {
   try {
     const response = await fetch(url);
     const results = await response.json();
     console.log(results[0], results[1], results[2]);
+    
     displayresults(results);
   } catch (error) {
     console.log(error);
@@ -47,6 +50,31 @@ function displayresults(results) {
                                    <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
     }
   }
+
+
+  /*const getClass = document.querySelectorAll(".carousel_item");
+  if (getClass){
+    loader.getElementsByClassName.display = "none";
+  }*/
+
+
+  function stopLoader (){
+    console.log("loaded");
+    loader.style.display="none";
+  }
+
+  const loader = document.querySelector(".loader");
+  window./*getElementsByClassName("carousel").*/onload = /*function() {stopLoader()}*/stopLoader();
+
+ 
+
+  
+
+
+
+
+
+
 
   let slidePosition = 0;
   const slides = document.getElementsByClassName("carousel_content");
