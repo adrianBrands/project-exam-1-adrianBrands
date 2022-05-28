@@ -4,4 +4,4 @@ function stopLoader (){
   }
 
   const loader = document.querySelector(".loader");
-  window./*getElementsByClassName("carousel").*/onload = /*function() {stopLoader()}*/stopLoader();
+ /* window.onload = stopLoader();*/
