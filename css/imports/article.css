@@ -45,7 +45,7 @@ body#article{
 
 .article-content2 h2{
     font-size: 35px;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .article-content p{
@@ -92,7 +92,7 @@ dialog::backdrop {
 }
 
 .article_ul{
-    
+    border-bottom: 1px solid #000;
     padding: 0;
     margin: 0;
 }
@@ -100,4 +100,11 @@ dialog::backdrop {
 .article_ul li {
     display: inline-block;
     margin: 10px;
+}
+
+.date_article{
+    font-size: 10px;
+    color: rgb(155, 154, 154);
+    
+    
 }

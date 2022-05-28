@@ -75,6 +75,14 @@
         width: 80%;
     }
 
+    footer p{
+        font-size: 12px;
+    }
+
+    .nav-action{
+        font-size: 16px;
+    }
+
     /*contact*/
     .contact-info h1{
         font-size: 30px;
@@ -90,7 +98,7 @@
     }
 
     /*article*/
-    .article-content2 h1 {
+    .article-content2 h2 {
         font-size: 25px;
     }
 
