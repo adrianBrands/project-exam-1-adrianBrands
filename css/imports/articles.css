@@ -16,7 +16,7 @@ body#articles{
     
 }
 
-.articles h1{
+.articles h2{
     grid-column: -1/1;
     width: 98%;
     line-height: 0.1em;

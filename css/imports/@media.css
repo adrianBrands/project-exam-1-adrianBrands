@@ -62,6 +62,14 @@
         font-size: 17px;
     }
 
+    .articles_name{
+        font-size: 20px;
+    }
+
+    .articles-button{
+        font-size: 18px;
+    }
+
      /*layout*/
      .logo-footer{
         width: 80%;
@@ -70,6 +78,10 @@
     /*contact*/
     .contact-info h1{
         font-size: 30px;
+    }
+
+    .success{
+        font-size: 18px;
     }
 
     .contact-info{

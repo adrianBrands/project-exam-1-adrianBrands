@@ -92,7 +92,7 @@ min-height: 100vh;
 }
 
 .carousel_item {
-    
+
    padding: 20px;
 }
 
@@ -108,7 +108,7 @@ min-height: 100vh;
 .latest_articles_h2 h2{
     width: 78%; 
     line-height: 0.1em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #626161;
     text-align: center;
     font-size: 25px;
 }
@@ -145,6 +145,7 @@ min-height: 100vh;
     font-weight: lighter;
     transition: all 1s;
     
+    
 }
 
 .cta:hover {
@@ -157,6 +158,8 @@ min-height: 100vh;
       color: rgb(155, 154, 154);
       margin-top: 3px;
   }
+
+ 
 
 
 

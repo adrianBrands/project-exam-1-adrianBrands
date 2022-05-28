@@ -31,6 +31,7 @@ body#contact{
 
 .contact-info h1{
     font-size: 40px;
+    font-weight: normal;
 }
 
 .form-group{
@@ -90,4 +91,10 @@ textarea.invalid{
     background-color: rgb(220, 220, 220);
     color: rgba(118, 5, 5);
     transition: all 2s;
+}
+
+.success{
+    font-size: 30px;
+    color: rgba(118, 5, 5);
+    
 }
