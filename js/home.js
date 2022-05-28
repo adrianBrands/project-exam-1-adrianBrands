@@ -52,30 +52,6 @@ function displayresults(results) {
   }
 
 
-  /*const getClass = document.querySelectorAll(".carousel_item");
-  if (getClass){
-    loader.getElementsByClassName.display = "none";
-  }*/
-
-
-  function stopLoader (){
-    console.log("loaded");
-    loader.style.display="none";
-  }
-
-  const loader = document.querySelector(".loader");
-  window./*getElementsByClassName("carousel").*/onload = /*function() {stopLoader()}*/stopLoader();
-
- 
-
-  
-
-
-
-
-
-
-
   let slidePosition = 0;
   const slides = document.getElementsByClassName("carousel_content");
   const totalSlides = slides.length;

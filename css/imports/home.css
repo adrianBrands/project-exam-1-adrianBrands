@@ -35,7 +35,7 @@ min-height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     max-width: 1500px;
     margin: 70px auto;
-    background-color: blue;
+    
 }
 
 .carousel .carousel_buttons{
