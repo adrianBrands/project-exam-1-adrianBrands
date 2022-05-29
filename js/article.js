@@ -17,11 +17,11 @@ async function getArticleResults() {
         const response = await fetch(corsEnabled);
         const results = await response.json();
         console.log(results);
-        
         displayArticleResults(results);
     
     } catch (error){
         console.log(error);
+        article.innerHTML = `<p>Sorry something went wrong...</p>`;
     } 
 }
 
@@ -37,37 +37,17 @@ function displayArticleResults (results){
                             <li><img class="author_picture" src="${results._embedded['author']['0']['avatar_urls']['24']}"/></li>
                             <li><p class="author_article">Author: ${results._embedded.author[0].name}</p></li>
                           </ul>
-
-                          
                           <p class="main_text_article">${results.content.rendered}</p>
                           <p class="date_article">${results.date.slice(0,10)}</p>`; 
-
-                          
-                          
-                          
-
-                          
-      
 }
-
-
-
-
-
-
 
 
 const imgModall = document.querySelector(".img-article_module")
 
 document.addEventListener("click", function(event) {
-    
     if (event.target.closest(".article-img")) {
         imgModal.showModal();
-
     }
-    
-
-     
 })
 
 function dialogClick(event){
@@ -80,8 +60,6 @@ function dialogClick(event){
 
 const dialog = document.querySelector("dialog");
 dialog.addEventListener("click", dialogClick);
-
-
 
 getArticleResults();
 
