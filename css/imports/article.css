@@ -120,3 +120,39 @@ dialog::backdrop {
     
     
 }
+
+
+.article-ul{
+    
+    margin-top: 15px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    
+}
+
+
+.article-ul li{
+    list-style-type: none;
+    display: inline;
+    
+    
+   
+}
+
+.article_li{
+    text-decoration: none;
+    color: #000;
+    margin-left: 0;
+
+}
+
+.article_li:hover{
+    color: rgb(191, 9, 9);
+
+}
+
+.article_li2{
+    border-bottom: 2px solid #c51010; 
+    
+}
