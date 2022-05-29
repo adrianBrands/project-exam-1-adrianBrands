@@ -124,17 +124,18 @@ dialog::backdrop {
 
 .article-ul{
     
-    margin-top: 15px;
+    margin-top: 0;
     padding: 0;
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    
     
 }
-
 
 .article-ul li{
     list-style-type: none;
     display: inline;
+    
     
     
    
@@ -142,7 +143,7 @@ dialog::backdrop {
 
 .article_li{
     text-decoration: none;
-    color: #000;
+    color: rgb(155, 154, 154);
     margin-left: 0;
 
 }
@@ -153,6 +154,7 @@ dialog::backdrop {
 }
 
 .article_li2{
-    border-bottom: 2px solid #c51010; 
+    border-bottom: 2px solid #c51010;
+    color: rgb(155, 154, 154); 
     
 }
