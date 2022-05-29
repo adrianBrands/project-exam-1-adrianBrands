@@ -58,7 +58,7 @@ const validateInputs = () => {
 
 contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    console.log("hello");
+    console.log("clicked");
     validationInProgress = true;
     validateInputs();
     if(formIsValid){

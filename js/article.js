@@ -1,7 +1,6 @@
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
-console.log(id);
 const article = document.querySelector(".article-content2");
 const articleImg = document.querySelector(".article-img");
 const imgModal = document.querySelector(".img_modal");
@@ -18,7 +17,7 @@ async function getArticleResults() {
         const response = await fetch(corsEnabled);
         const results = await response.json();
         console.log(results);
-        console.log(results._embedded['wp:featuredmedia']['0']['alt_text']);
+        
         displayArticleResults(results);
     
     } catch (error){
@@ -43,10 +42,9 @@ function displayArticleResults (results){
                           <p class="main_text_article">${results.content.rendered}</p>
                           <p class="date_article">${results.date.slice(0,10)}</p>`; 
 
-                          const getWpImgClass = document.querySelector(".wp-image-61")
-                          /*getWpImgClass.style.width = "100%";
-                          getWpImgClass.style.height = "auto";*/
-                          console.log(getWpImgClass);
+                          
+                          
+                          
 
                           
       
@@ -67,17 +65,16 @@ document.addEventListener("click", function(event) {
         imgModal.showModal();
 
     }
-    /*if (!event.target.closest(".img-article_module")) {
-        imgModal.close();
+    
 
-    } */ 
+     
 })
 
 function dialogClick(event){
     if (event.target === dialog) {
         dialog.close();
     } else {
-        console.log("no")
+        console.log("didnt work")
     }
 }
 

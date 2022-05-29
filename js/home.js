@@ -9,7 +9,7 @@ async function getResults() {
   try {
     const response = await fetch(url);
     const results = await response.json();
-    console.log(results[0], results[1], results[2]);
+    
     
     displayresults(results);
   } catch (error) {
@@ -100,8 +100,7 @@ function displayresults(results) {
 
   
 
-const date = "2022-05-18T12:56:42";
-console.log(date.slice(0,10));
+
 
 
 
