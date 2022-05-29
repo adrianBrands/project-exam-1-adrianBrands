@@ -12,18 +12,17 @@ body#articles{
     margin: 70px auto;
     max-width: 1800px;
     grid-gap: 20px;
-    
-    
 }
 
-.articles h2{
+.articles h1{
     grid-column: -1/1;
     width: 98%;
     line-height: 0.1em;
     border-bottom: 1px solid #626161;
     text-align: center;
     margin-bottom: 30px;
-    
+    font-weight: normal;
+    font-size: 25px;
 }
 
 .articles span{ 
@@ -35,7 +34,6 @@ body#articles{
     margin-bottom: 15px;
     width: 95%;
     border-bottom: 1px solid rgb(193, 21, 21);
-     
 }
 
 .articles-button{
@@ -43,21 +41,11 @@ body#articles{
     color: #000;
     font-weight: lighter;
     font-size: 20px;
-    
-
 }
 
 .articles-button:hover{
     color: rgb(191, 9, 9);
-    
 }
-
-
-
-
-
-
-
 
 .car{
     width: 100%;
@@ -72,7 +60,6 @@ body#articles{
     transition: all 2s;
     cursor: pointer;
     opacity: 0.6;
-
 }
 
 .read {
@@ -85,14 +72,11 @@ body#articles{
 }
 
 .articles_name{
-    
-    font-size: 25px;
+    font-size: 22px;
     font-weight:lighter;
     text-decoration: none;
     color: #000;
 }
-
-
 
 .read_more{
     font-size: 20px;

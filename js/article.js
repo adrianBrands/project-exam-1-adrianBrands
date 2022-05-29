@@ -32,7 +32,7 @@ function displayArticleResults (results){
     title.innerHTML = `${results.title.rendered}`;
     dialogDiv.innerHTML = `<img class="img-article_module" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
     articleImg.innerHTML += `<img class="img-article" src="${results._embedded['wp:featuredmedia']['0'].source_url}" alt="${results._embedded['wp:featuredmedia']['0'].alt_text}" />`;
-    article.innerHTML += `<h2>${results.title.rendered}</h2>
+    article.innerHTML += `<h1>${results.title.rendered}</h1>
                           <ul class="article_ul">
                             <li><img class="author_picture" src="${results._embedded['author']['0']['avatar_urls']['24']}"/></li>
                             <li><p class="author_article">Author: ${results._embedded.author[0].name}</p></li>
