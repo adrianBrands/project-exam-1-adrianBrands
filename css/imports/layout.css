@@ -49,30 +49,19 @@ header a{
     width: 100%;
     text-align: center;
     color: #fff;
-    
-    
 }
 
-
-
- .ul {
+.ul {
     padding: 0;
     margin: 0;
     display: flex;
-    
     list-style-type: none;
     justify-content: center;
-    
-    
-    
-    
 }
 
 #nav{
     top:0;
     width: 100%;
-    
-    
 }
 
 
@@ -80,9 +69,7 @@ header a{
 nav a{
     display: inline-block;
     text-decoration: none;
-    /*margin: 45px;*/
     color:#626161;
-    
     font-weight: lighter;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
@@ -128,9 +115,7 @@ li a {
 }
 
 footer{
-  /*  height: 100%;*/
-   margin-top: auto; 
-   /* height: 40px;*/
+    margin-top: auto; 
     max-width: 100%;
     align-items: center;
     display: flex;

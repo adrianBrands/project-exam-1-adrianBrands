@@ -5,8 +5,6 @@ background-repeat: no-repeat;
 display: flex;
 flex-direction: column;
 min-height: 100vh;
-
-
 }
 
 .changing_carimg{
@@ -39,7 +37,7 @@ min-height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     max-width: 1500px;
     margin: 70px auto;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .carousel .carousel_buttons{
@@ -53,16 +51,12 @@ min-height: 100vh;
 
 .carousel .carousel_buttons button {
     border: 0;
-    /*width: 50px;
-    height: 50px;*/
     color: #000;
     font-size: 44px;
-    /* background-color: #fff;*/
-   background-color: #fff;
+    background-color: #fff;
 }
 
 .carousel .carousel_buttons button:hover{
-    /*background-color: rgb(155, 154, 154);*/
     color: rgba(118, 5, 5);
     transition: all 1.5s;
     
@@ -90,8 +84,7 @@ min-height: 100vh;
 }
 
 .carousel_item {
-
-   padding: 20px;
+    padding: 20px;
 }
 
 .latest_articles_h1{
