@@ -123,10 +123,11 @@
 
      .date_article{
         font-size: 12px;
-        
-        
-        
-        
+    }
+
+    /*about*/
+    .about-content h1{
+        font-size: 20px;
     }
 
     

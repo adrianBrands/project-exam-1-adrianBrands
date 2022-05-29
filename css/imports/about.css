@@ -46,4 +46,6 @@ body#about{
    width: 400px;
 }*/
 
-
+.about-content h1{
+    font-size: 25px;
+}
