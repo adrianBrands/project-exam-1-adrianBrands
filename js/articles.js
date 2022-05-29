@@ -26,7 +26,7 @@ function displayresults (results){
                                     <a href="article.html?id=${results[i].id}"><img class="car" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}" alt="${results[i]._embedded['wp:featuredmedia']['0'].alt_text}"/></a>
                                     
                                     <a class="articles_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                    <p>${results[i].date}</p>
+                                    <p>${results[i].date.slice(0,10)}</p>
                                     
                                     <a href="article.html?id=${results[i].id}"<button class="articles-button">Read now</button></a>
                                 </div> `; 

@@ -17,6 +17,9 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    
+    
+
 }
 
 
@@ -55,6 +58,10 @@
 
     .date, .carousel_item .author{
         font-size: 10px;
+    }
+
+    .carousel .carousel_buttons button{
+        font-size: 22px;
     }
 
     /*articles*/
@@ -111,6 +118,12 @@
     
         width: 70%;
     }
+
+    .error-message{
+        font-size: 10px;
+    }
+
+    
 
     /*article*/
     .article-content2 h2 {

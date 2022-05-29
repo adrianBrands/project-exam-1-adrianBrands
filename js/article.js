@@ -41,7 +41,7 @@ function displayArticleResults (results){
 
                           
                           <p class="main_text_article">${results.content.rendered}</p>
-                          <p class="date_article">${results.date}</p>`; 
+                          <p class="date_article">${results.date.slice(0,10)}</p>`; 
 
                           const getWpImgClass = document.querySelector(".wp-image-61")
                           /*getWpImgClass.style.width = "100%";

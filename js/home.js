@@ -2,7 +2,7 @@ const url = "https://mywebsite.no/wp-json/wp/v2/posts?_embed&per_page=12";
 const carousel1 = document.querySelector("#carousel1");
 const carousel2 = document.querySelector("#carousel2");
 const carousel3 = document.querySelector("#carousel3");
-
+const imageContainer = document.querySelector(".posts_img");
 
 
 async function getResults() {
@@ -19,14 +19,17 @@ async function getResults() {
 
 function displayresults(results) {
   for (let i = 0; i < results.length; i++) {
+    
+    
     switch (results[i]) {
       case results[0]:
       case results[1]:
       case results[2]:
       case results[3]:
-        carousel1.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
+        
+      carousel1.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="date">Date: ${results[i].date.slice(0,10)}</p>
                                    <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`; /* <a class="cta" href="article.html?id=${results[i].id}" <button>read</button></a>*/
         break;
 
@@ -36,7 +39,7 @@ function displayresults(results) {
       case results[7]:
         carousel2.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="date">Date: ${results[i].date.slice(0,10)}</p>
                                    <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
         break;
 
@@ -46,7 +49,7 @@ function displayresults(results) {
       case results[11]:
         carousel3.innerHTML += `<div class="carousel_item"><a href="article.html?id=${results[i].id}"><img class="post_img" src="${results[i]._embedded["wp:featuredmedia"]["0"].source_url}"/></a>
                                    <a class="post_name" href="article.html?id=${results[i].id}">${results[i].title.rendered}</a>
-                                   <p class="date">Date: ${results[i].date}</p>
+                                   <p class="date">Date: ${results[i].date.slice(0,10)}</p>
                                    <p class="author">Author: ${results[i]._embedded.author[0].name}</p></div>`;
     }
   }
@@ -97,8 +100,8 @@ function displayresults(results) {
 
   
 
-
-
+const date = "2022-05-18T12:56:42";
+console.log(date.slice(0,10));
 
 
 
