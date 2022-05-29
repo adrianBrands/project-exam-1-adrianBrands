@@ -99,12 +99,14 @@ dialog::backdrop {
 .article-ul li{
     list-style-type: none;
     display: inline;
+    
 }
 
-.article_li{
+.article_li {
     text-decoration: none;
     color: rgb(155, 154, 154);
     margin-left: 0;
+    
 }
 
 .article_li:hover{
