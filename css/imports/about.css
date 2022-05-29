@@ -1,11 +1,10 @@
 body#about{
-    background-image: url('../../images/rarrif1.jpg');
+    background-image: url('../../images/rarrif1_low.jpg');
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-size:cover; 
     background-position:center;
-    /*background-attachment: fixed;*/
     background-repeat: no-repeat;
 }
 
@@ -15,19 +14,7 @@ body#about{
     align-items: center;
     margin-bottom: 200px;
     margin-top: 100px;
-    
 }
-
-
-
-    
-    
-   /* background-image: url('../../images/rarrif1-kopi.jpg');*/
-    
-    
-   
-    
-
 
 .about-content{
     background-color: rgba(118, 5, 5, 0.95);
@@ -42,9 +29,6 @@ body#about{
     margin: 20px;
 }
 
-/*.about-content p{
-   width: 400px;
-}*/
 
 .about-content h1{
     font-size: 25px;
