@@ -9,7 +9,7 @@
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Project buliding a responsive blog website, with the interest of cars.
 
 You can add some bullet points if you'd like to:
 
@@ -19,11 +19,10 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
 - JAVASCRIPT
+- WordPress
 
 ## Getting Started
 
