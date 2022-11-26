@@ -1,5 +1,8 @@
 # Project exam 1
 
+##live site:
+https://roaring-pothos-bbe0ee.netlify.app/index.html
+
 ![screenshot2](https://user-images.githubusercontent.com/40333282/173189668-62039174-af71-46bf-8b62-95313c6a335f.jpg)
 
 
